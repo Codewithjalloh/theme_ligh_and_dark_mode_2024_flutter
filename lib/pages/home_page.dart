@@ -18,6 +18,7 @@ class HomePage extends StatelessWidget {
             color: Theme.of(context).colorScheme.secondary,
             onTap: () {
               Provider.of<ThemeProvider>(context, listen: false).toggleTheme();
+              print("hii");
             },
           ),
         ),
